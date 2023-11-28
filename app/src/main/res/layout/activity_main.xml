@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -82,7 +81,7 @@
         android:layout_marginBottom="134dp"
         android:text="@string/receive_message" />
 
-    z<EditText
+    <EditText
         android:id="@+id/editTextNumberPassword"
         style="@android:style/Widget.AutoCompleteTextView"
         android:layout_width="310dp"
@@ -92,7 +91,6 @@
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="137dp"
         android:ems="10"
-        android:inputType="@string/app_name"
         android:singleLine="true"
         android:textColor="#9C27B0"
         android:visibility="visible"
